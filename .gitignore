@@ -1,0 +1,33 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Pytest
+.pytest_cache/
+
+# Environment variables
+.env
+
+# Reports and execution artifacts
+allure-results/
+allure-report/
+reports/*
+!reports/.gitkeep
+
+logs/*
+!logs/.gitkeep
+
+screenshots/*
+!screenshots/.gitkeep
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
